@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  font-weight: 700;
+  color: #333;
+}
+
+.content {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.picdtls {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: 2em;
+  margin-top: 4em;
+}
+
+.picdtls img {
+  /* width: 80%; */
+  opacity: 0.8;
+}
+
+.logdtls {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80%;
+  align-items: center;
+  box-shadow: rgba(46, 46, 48, 0.5) 0.5em 1em 2em;
+  border: rgba(25, 25, 29, 0.5) 2px solid;
+  border-radius: 2em;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+form input,
+form h2 {
+  margin-bottom: 1.5em;
+}
+
+.colo {
+  height: 5%;
+  width: 100%;
+  background-color: #696969;
+}
+
+form input {
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  outline: none;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0.5em 1em 2em;
+}
+
+#logbtn {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #333;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+#logbtn:hover {
+  background-color: white;
+  border: #333 1px solid;
+  color: #333;
+}
+
+#reglink {
+  font-size: 0.8em;
+  color: #696969;
+}
+h3 {
+  font-size: 180%;
+  font-weight: 400 !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 10px;
+  color: rgb(1, 80, 145);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
