@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ministry of Health</title>
-    <link rel="stylesheet" href="./Resources/CSS/props.css">
     <link rel="stylesheet" href="./Resources/CSS/index.css">
 </head>
 

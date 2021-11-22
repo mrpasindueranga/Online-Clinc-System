@@ -51,7 +51,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 80%;
   height: 80%;
   align-items: center;
   box-shadow: rgba(46, 46, 48, 0.5) 0.5em 1em 2em;
@@ -76,6 +76,8 @@ form input {
   padding: 1em 1.5em;
   border-radius: 2em;
   outline: none;
+  width: 18em;
+  margin-left: 1em;
 }
 
 form input[type="text"],
@@ -118,4 +120,5 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-size: 1.2em;
 }
