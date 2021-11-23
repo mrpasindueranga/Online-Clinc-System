@@ -1,0 +1,172 @@
+body {
+  overflow-x: hidden;
+  background-color: rgb(233, 233, 227);
+}
+
+.bodyl {
+  width: 16%;
+  height: 90%;
+  display: flex;
+}
+
+.y {
+  display: flex;
+}
+
+.side {
+  width: 100%;
+  height: 100%;
+}
+
+.bodyr {
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+
+.section {
+  display: flex;
+}
+
+.left a {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 3em;
+  margin-top: 1em;
+}
+
+.left a:first-child {
+  margin-top: 3em;
+}
+
+.card {
+  height: 15%;
+  width: 100%;
+  border: black 1px solid;
+}
+
+.dtls {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  /* margin-left: 1em; */
+}
+
+.name {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+.card span h3,
+h4 {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.card {
+  width: 98%;
+}
+
+.sidubtn a {
+  background-color: #1a53ff;
+  color: white;
+  padding: 0.2em 0.8em;
+  text-decoration: none;
+  border-radius: 3em;
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+.sidubtn a:first-child {
+  margin-left: 1em;
+}
+
+#add {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 0.7em 0.8em;
+  border-radius: 50%;
+  background-color: green;
+}
+
+#add svg {
+  stroke: white;
+}
+
+.main-part {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 5px;
+}
+.cpanel {
+  width: 32%;
+  display: inline-block;
+  background-color: #34495e;
+  color: #fff;
+  margin-top: 50px;
+}
+.icon-part i {
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-top: -25px;
+  margin-bottom: 10px;
+  background-color: #34495e;
+}
+.icon-part p {
+  margin: 0px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.card-content-part {
+  background-color: #2f4254;
+  padding: 5px 0px;
+}
+.cpanel .card-content-part:hover {
+  background-color: #5a5a5a;
+  cursor: pointer;
+}
+.card-content-part a {
+  color: #fff;
+  text-decoration: none;
+}
+.cpanel-green .icon-part,
+.cpanel-green .icon-part i {
+  background-color: #16a085;
+}
+.cpanel-green .card-content-part {
+  background-color: #149077;
+}
+.cpanel-orange .icon-part,
+.cpanel-orange .icon-part i {
+  background-color: #f39c12;
+}
+.cpanel-orange .card-content-part {
+  background-color: #da8c10;
+}
+.cpanel-blue .icon-part,
+.cpanel-blue .icon-part i {
+  background-color: #2980b9;
+}
+.cpanel-blue .card-content-part {
+  background-color: #2573a6;
+}
+.cpanel-red .icon-part,
+.cpanel-red .icon-part i {
+  background-color: #e74c3c;
+}
+.cpanel-red .card-content-part {
+  background-color: #cf4436;
+}
+.cpanel-skyblue .icon-part,
+.cpanel-skyblue .icon-part i {
+  background-color: #8e44ad;
+}
+.cpanel-skyblue .card-content-part {
+  background-color: #803d9b;
+}
