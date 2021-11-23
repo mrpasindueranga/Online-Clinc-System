@@ -13,7 +13,15 @@ if ($_SESSION) :
   </head>
 
   <body>
-
+    <?php
+    if ($_SESSION['Role'] === 'Admin') {
+      require('../component/Home/admin.php');
+    } elseif ($_SESSION['Role'] === 'Doctor') {
+      require('../component/Home/doctor.php');
+    } elseif ($_SESSION['Role'] === 'User') {
+      require('../component/Home/user.php');
+    }
+    ?>
   </body>
 
   </html>
