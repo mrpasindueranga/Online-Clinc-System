@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  /* border-bottom: #333 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+}
+
+.h {
+  font-size: 2.2em;
+}
+
+.colo {
+  height: 5%;
+  width: 100%;
+  background-color: #696969;
+}
+
+.logo {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  justify-content: space-around;
+}
+
+.search {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+  /* background-color: blue; */
+  flex-direction: column;
+  padding-right: 1em;
+  justify-content: space-around;
+}
+
+.searchbox {
+  background-color: #c18ff0;
+  padding: 0.5em;
+  height: 1.5em;
+  color: black;
+}
+
+.searchbox form {
+  display: flex;
+  align-items: center;
+}
+
+.searchbox form input,
+.searchbox form button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  height: 100%;
+  color: black;
+}
+
+.searchbox form input::placeholder {
+  color: black;
+}
+
+.searchbox form button svg {
+  width: 25px;
+  stroke: black;
+}
+
+.searchbox form button svg:hover {
+  stroke: #333;
+}
+
+.searchbox {
+  display: flex;
+  margin-right: 1em;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+}
+
+.down a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: #333;
+}
+
+.searchbox input:focus {
+  /* background-color: #B1E9E2; */
+}
+
+.logo img {
+  width: 128px;
+  background-color: white;
+  padding: 0.28em 0.2em;
+  border-radius: 5em;
+}
+
+.down select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: 1em;
+}
+
+.down select option {
+  color: black;
+}
+
+.up {
+  display: flex;
+  margin-right: 1em;
+}
+
+.up a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1em;
+}
