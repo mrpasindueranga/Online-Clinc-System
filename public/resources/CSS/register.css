@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 body {
   width: 100vw;
   height: 100vh;
@@ -62,6 +63,7 @@ form {
 }
 
 form input,
+form select,
 form h2 {
   margin-bottom: 1.5em;
 }
@@ -72,7 +74,8 @@ form h2 {
   background-color: #696969;
 }
 
-form input {
+form input,
+form select {
   padding: 1em 1.5em;
   border-radius: 2em;
   outline: none;
@@ -80,8 +83,13 @@ form input {
   margin-left: 1em;
 }
 
+form select {
+  width: 20em;
+}
+
 form input[type="text"],
-form input[type="password"] {
+form input[type="password"],
+form select {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.4) 0.5em 1em 2em;
 }
@@ -105,6 +113,7 @@ form input[type="password"] {
   font-size: 0.8em;
   color: #696969;
 }
+
 h3 {
   font-size: 180%;
   font-weight: 400 !important;

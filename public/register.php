@@ -26,29 +26,33 @@
             </div>
         </div>
         <div class="logdtls">
-            <form action="../DB/log.php" method="POST">
+            <form action="../db/register.php" method="POST">
                 <h2>Registretion Form</h2>
                 <div>
                     <div class="left">
-                        <input type="text" name="Username" placeholder="Name" required>
-                        <input type="text" name="Username" placeholder="Gender" required>
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <Select type="text" name="Gender" placeholder="Gender" required>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </Select>
                     </div>
 
                     <div>
-                        <input type="text" name="Username" placeholder="Age" required>
-                        <input type="text" name="district" placeholder="District" required>
+                        <input type="text" name="Age" placeholder="Age" required>
+                        <input type="text" name="District" placeholder="District" required>
                     </div>
 
                     <div class="right">
-                        <input type="text" name="Username" placeholder="email" required>
-                        <input type="password" name="Pass" placeholder="Password" required>
-
+                        <input type="text" name="Email" placeholder="Email" required>
+                        <input type="password" name="Password" placeholder="Password" required>
+                    </div>
+                    <div class="left">
+                        <input type="text" name="NIC" placeholder="NIC" required>
+                        <input type="text" name="Con" placeholder="Contact Number" required>
                     </div>
                 </div>
 
-                <input id="logbtn" type="submit" value="Login">
-                <p>Don't have account ? </p>
-                <a id="reglink" href="./register.php">Click here to register</a>
+                <input id="logbtn" type="submit" value="Register">
             </form>
         </div>
     </div>
